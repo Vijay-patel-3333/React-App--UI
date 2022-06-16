@@ -11,8 +11,8 @@ This project contains different components:
 -> feedbackList
 -> feedbackStats
 -> RatingSelect
--> about
 -> button
+-> about
 
 
 By feedbackForm component , we can write feedback and send it. 
