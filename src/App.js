@@ -13,7 +13,7 @@ function App(){
     const [feedbackData,setFeedbackData] = useState(FeedbackData);
     const deleteComment = (id) => {
         if(window.confirm("Are you sure you want to delete this comment ?")){
-            setFeedbackData(feedbackData.filter((item)=> item.id != id));
+            setFeedbackData(feedbackData.filter((item)=> item.id !== id));
         }
     }
     const addNewComments = (newComment) => {
